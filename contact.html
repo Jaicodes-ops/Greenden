@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeden - Contact</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="product.html">Product</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="text-center py-8">
+        <h1 class="text-3xl font-bold mt-5">Contact Us</h1>
+        <p class="mb-6">We would love to hear from you! Please reach out with any questions or feedback.</p>
+        <div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2 text-left" for="name">Name</label>
+                <input
+                    class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                    type="text" id="name" placeholder="Your Name" />
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2 text-left" for="email">Email</label>
+                <input
+                    class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                    type="email" id="email" placeholder="Your Email" />
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2 text-left" for="message">Message</label>
+                <textarea
+                    class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+                    id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button class="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors w-full"
+                type="button">Send Message</button>
+        </div>
+    </section>
+
+    <section class="mt-5 bg-green-100 text-center p-4">
+        <h1 class="font-bold text-3xl">Greenden</h1>
+        <p class="mt-2 mb-2">Privacy Policy | Terms of Service | Contact Us</p>
+        <p>&copy; 2026 Greenden. All rights reserved.</p>
+    </section>
+
+</body>
+
+</html>

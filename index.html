@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greenden</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-50">
+        <h1 class="text-2xl font-bold">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="hidden md:flex gap-5 text-gray-600">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="product.html">Product</a></li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header section -->
+    <section class="bg-green-100 p-4 md:p-10 flex flex-col md:flex-row justify-center items-center">
+        <div class="max-w-xl">
+            <p class="mb-4 mt-8">Discover MyGreeden, where eco-friendly ideas meet modern</p>
+            <h2 class="font-bold text-3xl md:text-5xl mb-5">plants for your interior</h2>
+            <div class="space-x-3">
+                <button class="bg-black rounded p-2 px-4 text-white hover:bg-gray-800">Shop Now</button>
+                <button class="border border-black rounded p-2 px-4 hover:bg-black hover:text-white">Watch Now</button>
+            </div>
+
+            <p class="mt-5">220+ plant species | 100+ happy customers</p>
+        </div>
+
+        <div class="hidden md:block p-5">
+            <img src="./Images/11471878.png" alt="plant image" class="w-96">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="text-center py-8">
+        <h1 class="text-3xl font-bold mt-5">About Us</h1>
+        <p class="mb-6">Learn more about our mission to bring nature into your home.</p>
+        <div class="flex flex-wrap justify-center gap-4 px-4">
+            <div class="border border-black p-6 m-4 w-full md:w-80">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 h-20 inline mb-4">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                </svg>
+
+                <h2 class="text-xl font-medium mb-2">Large Assortment</h2>
+                <p class="text-sm">We offer a large assortment of healthy, carefully selected plants to suit every space
+                    and lifestyle.
+                    From indoor greens to outdoor favorites, our collection brings nature closer to you.
+                    Each plant is chosen for quality, freshness, and easy maintenance.
+                    Find the perfect plant to grow your green space with confidence and care.</p>
+            </div>
+
+            <div class="border border-black p-6 m-4 w-full md:w-80">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 h-20 inline mb-4">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.125-.504 1.125-1.125V14.25m-17.25 0a1.125 1.125 0 0 1 1.125-1.125h12.75c.621 0 1.125.504 1.125 1.125v1.125c0 .621-.504 1.125-1.125 1.125H3.375c-.621 0-1.125-.504-1.125-1.125V14.25ZM12 7.5V9m0 2.25v.75m0 3v.75m-4.5-9h9m-9 3h9m-9 3h9" />
+                </svg>
+
+                <h2 class="text-xl font-medium mb-2">Fast Delivery</h2>
+                <p class="text-sm">Experience the joy of fast and reliable delivery with Greenden.
+                    We prioritize getting your plants to you quickly and safely.
+                    Our efficient shipping process ensures that your green companions arrive fresh and ready to thrive.
+                    Enjoy the convenience of having beautiful plants delivered right to your doorstep in no time.</p>
+            </div>
+
+            <div class="border border-black p-6 m-4 w-full md:w-80">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 h-20 inline mb-4">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                </svg>
+
+                <h2 class="text-xl font-medium mb-2">Secure Payment</h2>
+                <p class="text-sm">Your security is our priority at Greenden.
+                    We offer secure payment options to ensure your transactions are safe and protected.
+                    Shop with confidence knowing that your personal and financial information is handled with the utmost
+                    care.
+                    Enjoy a seamless and worry-free shopping experience as you bring nature into your home.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Seller Section -->
+    <section class="p-4 text-center">
+        <h1 class="text-3xl font-bold mt-5">Best Seller</h1>
+        <div class="grid grid-cols-2 mt-5 md:grid-cols-4 gap-4">
+            <div class="mt-5">
+                <img class="inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2 transition duration-300"
+                    src="./Images/preview 1.png" alt="Rose plant">
+                <h1 class="mt-2 font-medium">Rose Plant</h1>
+                <p class="text-gray-600">$20</p>
+            </div>
+            <div class="mt-5">
+                <img class="inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2 transition duration-300"
+                    src="./Images/preview 2.png" alt="Mango plant">
+                <h1 class="mt-2 font-medium">Mango Plant</h1>
+                <p class="text-gray-600">$20</p>
+            </div>
+            <div class="mt-5">
+                <img class="inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2 transition duration-300" 
+                    src="./Images/11471878.png" alt="Bird of Paradise Plant">
+                <h1 class="mt-2 font-medium">Bird of Paradise Plant</h1>
+                <p class="text-gray-600">$20</p>
+            </div>
+            <div class="mt-5">
+                <img class="inline rounded-2xl hover:shadow-xl transform hover:-translate-y-2 transition duration-300"
+                    src="./Images/preview 3.png" alt="plant">
+                <h1 class="mt-2 font-medium">Ficus Plant</h1>
+                <p class="text-gray-600">$20</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="p-4 py-10">
+        <h1 class="font-bold text-3xl text-center mb-8">Customer Reviews</h1>
+        <div class="flex flex-wrap justify-center gap-4 px-4">
+            <div class="border border-black p-6 m-4 w-full md:w-80">
+                <h2 class="text-xl font-medium mb-2">Amazing Service!</h2>
+                <p class="text-sm">I recently purchased a few plants from Greenden, and I couldn't be happier with my
+                    experience. The plants arrived healthy and vibrant, and the delivery was incredibly fast. The secure
+                    payment process made me feel safe throughout the transaction. Highly recommend! 
+                    <span class="font-bold block mt-2">- John Mathew</span></p>
+            </div>
+
+            <div class="border border-black p-6 m-4 w-full md:w-80">
+                <h2 class="text-xl font-medium mb-2">Wide Variety of Plants</h2>
+                <p class="text-sm">Greenden has an impressive selection of plants to choose from. I found the perfect
+                    indoor plant for my living room, and it has transformed the space. The quality of the plants is
+                    top-notch, and I appreciate the care they put into selecting each one.
+                    <span class="font-bold block mt-2">- Jane Smith</span>
+                </p>
+            </div>
+
+            <div class="border border-black p-6 m-4 w-full md:w-80">
+                <h2 class="text-xl font-medium mb-2">Fast and Reliable Delivery</h2>
+                <p class="text-sm">I was amazed at how quickly my plants arrived after placing my order. The delivery was
+                    prompt, and the plants were packaged securely to prevent any damage. It's clear that Greenden values
+                    customer satisfaction and goes above and beyond to ensure a positive experience.
+                    <span class="font-bold block mt-2">- Robert Downey Jr</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="text-center py-10 bg-gray-50">
+        <h1 class="font-bold text-2xl">Join Our Newsletter</h1>
+        <p class="mt-1 mb-5">Sign up for email newsletter to get exclusive updates, discounts & more</p>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-2">
+            <input type="email" placeholder="Enter your email" 
+                class="border border-gray-300 rounded p-2 px-4 w-64" />
+            <button class="bg-black rounded p-2 px-6 text-white hover:bg-gray-800">Subscribe</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-5 bg-green-100 p-6 text-center">
+        <h1 class="font-bold text-3xl mb-3">Greenden</h1>
+        <p class="mt-2 mb-2">Privacy Policy | Terms of Service | Contact Us</p>
+        <p>&copy; 2026 Greenden. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
